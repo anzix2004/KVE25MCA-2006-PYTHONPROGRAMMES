@@ -1,6 +1,6 @@
-def long_word(words):
-    long = max(words, key=len)
-    return len(long)
-
-words = input("Enter words separated by space: ").split()
-print("Length of longest word:", long_word(words))
+def fact(n):
+    print("factorial of ", n,"are :  ")
+    for i in range (1,n+1):
+        if n%i==0:
+            print(i, end=" ")
+fact(5)
